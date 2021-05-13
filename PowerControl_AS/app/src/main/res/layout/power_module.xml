@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/light_intensity_mart">>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_background"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp">
+
+        <TextView
+            android:id="@+id/text_power_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/led_lamp_margin_start"
+            android:text="@string/power"
+            android:textColor="@color/idkey_title_text"
+            android:textSize="@dimen/led_lamp_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_power_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/text_power_name"
+            android:layout_marginEnd="@dimen/led_lamp_state_margin_end"
+            android:text="@string/power_module_state"
+            android:textColor="@color/checked_item_state_offline_color"
+            android:textSize="@dimen/led_lamp_text_size" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/image_power_state"
+        android:layout_width="@dimen/led_image_size"
+        android:layout_height="@dimen/led_image_size"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:src="@drawable/power_off" />
+    
+    <Button
+        android:id="@+id/open_or_close_power"
+        android:layout_width="@dimen/open_lamp_width"
+        android:layout_height="@dimen/open_lamp_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/led_module_switch_margin_bottom"
+        android:text="开启"
+        android:textSize="12sp"
+        android:background="@drawable/open"/>
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/idkey_pading"
+    android:weightSum="5" >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/light_intensity_mart"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/idkey_text_layout_height"
+            android:background="@drawable/title_background"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/idkey_text_paddingLeft"
+            android:text="账户设置"
+            android:textColor="@color/idkey_title_text"
+            android:textSize="@dimen/idkey_text_textSize"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/idkey_layout_marginTop"
+            android:gravity="center_vertical"
+            android:weightSum="3" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="用户名："
+                android:textColor="@color/id_key_server_text_color"
+                android:textSize="@dimen/text_size_label"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tv_uname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:hint="username"
+                android:textColor="@color/id_key_server_text_color"
+                android:textSize="@dimen/text_size_label"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/idkey_layout_marginTop"
+            android:gravity="center_vertical"
+            android:weightSum="3" >
+
+            <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="注册时间："
+            android:textColor="@color/id_key_server_text_color"
+            android:textSize="@dimen/text_size_label"
+            android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_createDt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="createDt"
+                android:textColor="@color/id_key_server_text_color"
+                android:textSize="@dimen/text_size_label"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/idley_paddingbottom"
+            android:paddingTop="@dimen/idley_paddingtop"
+            android:weightSum="6" >
+
+            <Button
+                android:id="@+id/btn_modify"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/corner_button_off"
+                android:text="修改密码"
+                android:textColor="@color/idkey_button_textcolor"
+                android:textSize="@dimen/idkey_button_text_size" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" />
+
+            <Button
+                android:id="@+id/btn_del"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/corner_button_on"
+                android:text="注销账号"
+                android:textColor="@color/idkey_button_textcolor"
+                android:textSize="@dimen/idkey_button_text_size" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4" />
+
+            <Button
+                android:id="@+id/btn_quit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/share_button_selector"
+                android:text="退出登录"
+                android:textColor="@color/idkey_button_textcolor"
+                android:textSize="@dimen/idkey_button_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

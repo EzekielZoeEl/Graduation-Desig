@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cn.com.zonesion.powercontrol"
+4    android:versionCode="1"
+5    android:versionName="v2.0.190722" >
+6
+7    <uses-sdk
+7-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:7:5-47
+8        android:minSdkVersion="19"
+8-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:7:5-47
+9        android:targetSdkVersion="28" />
+9-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:7:15-44
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:9:5-67
+11-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:9:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:10:5-65
+12-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:10:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:11:5-81
+13-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:11:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:12:5-79
+14-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:12:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:13:5-76
+15-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:13:22-73
+16    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+16-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:14:5-76
+16-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:14:22-73
+17
+18    <uses-feature android:name="android.hardware.camera" />
+18-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:16:5-60
+18-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:16:19-57
+19    <uses-feature android:name="android.hardware.camera.autofocus" />
+19-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:17:5-70
+19-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:17:19-67
+20
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:19:5-66
+21-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:19:22-63
+22    <uses-permission android:name="android.permission.FLASHLIGHT" />
+22-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:20:5-69
+22-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:20:22-66
+23
+24    <application
+24-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:22:5-78:19
+25        android:name="cn.com.zonesion.powercontrol.application.LCApplication"
+25-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:23:9-50
+26        android:allowBackup="true"
+26-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:24:9-35
+27        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+27-->[com.android.support:support-compat:28.0.0] C:\Users\Ezekiel\.gradle\caches\transforms-2\files-2.1\f14724208b5bfeeef0d6bdefe649bca7\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+28        android:debuggable="true"
+29        android:icon="@drawable/ic_launcher"
+29-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:25:9-45
+30        android:label="@string/app_name"
+30-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:26:9-41
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:27:9-40
+33        <activity
+33-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:28:9-30:81
+34            android:name="cn.com.zonesion.powercontrol.MakeAnAppoint"
+34-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:29:13-42
+35            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+35-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:30:13-69
+36        <activity
+36-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:31:9-33:81
+37            android:name="cn.com.zonesion.powercontrol.DbOperation.Register"
+37-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:32:13-49
+38            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+38-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:33:13-69
+39        <activity
+39-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:34:9-36:81
+40            android:name="cn.com.zonesion.powercontrol.DbOperation.Modify"
+40-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:35:13-47
+41            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+41-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:36:13-69
+42        <activity
+42-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:37:9-39:81
+43            android:name="cn.com.zonesion.powercontrol.fragment.AccountInformationFragment"
+43-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:38:13-64
+44            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+44-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:39:13-69
+45        <activity
+45-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:40:9-48:20
+46            android:name="cn.com.zonesion.powercontrol.DbOperation.LoginActivity"
+46-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:41:13-54
+47            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+47-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:42:13-69
+48            <intent-filter>
+48-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:43:13-47:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:44:17-69
+49-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:44:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:46:17-77
+51-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:46:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:49:9-61:20
+55            android:name="cn.com.zonesion.powercontrol.MainActivity"
+55-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:50:13-41
+56            android:configChanges="orientation|keyboardHidden|screenSize"
+56-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:51:13-74
+57            android:screenOrientation="landscape"
+57-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:52:13-50
+58            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" >
+58-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:53:13-70
+59
+60            <!-- <intent-filter> -->
+61            <!-- <action android:name="android.intent.action.MAIN" /> -->
+62
+63
+64            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+65            <!-- </intent-filter> -->
+66        </activity>
+67        <activity
+67-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:62:9-66:63
+68            android:name="com.example.qr_codescan.MipcaActivityCapture"
+68-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:63:13-72
+69            android:configChanges="orientation|keyboardHidden"
+69-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:64:13-63
+70            android:screenOrientation="landscape"
+70-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:65:13-50
+71            android:windowSoftInputMode="stateAlwaysHidden" />
+71-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:66:13-60
+72        <activity
+72-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:67:9-71:63
+73            android:name="com.example.qr_codescan.QREncodeActivity"
+73-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:68:13-68
+74            android:configChanges="orientation|keyboardHidden"
+74-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:69:13-63
+75            android:screenOrientation="landscape"
+75-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:70:13-50
+76            android:windowSoftInputMode="stateAlwaysHidden" />
+76-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:71:13-60
+77        <activity
+77-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:72:9-74:70
+78            android:name="cn.com.zonesion.powercontrol.activity.IdKeyShareActivity"
+78-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:73:13-56
+79            android:theme="@android:style/Theme.Holo.Light.Dialog" />
+79-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:74:13-67
+80        <activity
+80-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:75:9-77:70
+81            android:name="cn.com.zonesion.powercontrol.activity.MacShareActivity"
+81-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:76:13-54
+82            android:theme="@android:style/Theme.Holo.Light.Dialog" />
+82-->D:\Lizgoe\PowerControl_AS\app\src\main\AndroidManifest.xml:77:13-67
+83
+84        <provider
+84-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\Ezekiel\.gradle\caches\transforms-2\files-2.1\4248c72111b6a9be638f2e89dcd4903c\extensions-1.1.1\AndroidManifest.xml:23:9-27:43
+85            android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
+85-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\Ezekiel\.gradle\caches\transforms-2\files-2.1\4248c72111b6a9be638f2e89dcd4903c\extensions-1.1.1\AndroidManifest.xml:24:13-83
+86            android:authorities="cn.com.zonesion.powercontrol.lifecycle-trojan"
+86-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\Ezekiel\.gradle\caches\transforms-2\files-2.1\4248c72111b6a9be638f2e89dcd4903c\extensions-1.1.1\AndroidManifest.xml:25:13-68
+87            android:exported="false"
+87-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\Ezekiel\.gradle\caches\transforms-2\files-2.1\4248c72111b6a9be638f2e89dcd4903c\extensions-1.1.1\AndroidManifest.xml:26:13-37
+88            android:multiprocess="true" />
+88-->[android.arch.lifecycle:extensions:1.1.1] C:\Users\Ezekiel\.gradle\caches\transforms-2\files-2.1\4248c72111b6a9be638f2e89dcd4903c\extensions-1.1.1\AndroidManifest.xml:27:13-40
+89    </application>
+90
+91</manifest>

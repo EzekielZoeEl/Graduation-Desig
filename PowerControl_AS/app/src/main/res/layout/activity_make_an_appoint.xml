@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/idkey_pading"
+    android:weightSum="5" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/light_intensity_mart"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/idkey_text_layout_height"
+            android:background="@drawable/title_background"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/idkey_text_paddingLeft"
+            android:text="时间预约"
+            android:textColor="@color/idkey_title_text"
+            android:textSize="@dimen/idkey_text_textSize"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/linear_air_temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/idkey_layout_marginTop"
+            android:gravity="center_vertical"
+            android:weightSum="4" >
+
+            <TextView
+                android:id="@+id/air_temperature_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="时长输入："
+                android:textColor="@color/id_key_server_text_color"
+                android:textSize="@dimen/text_size_label"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1" />
+
+            <EditText
+                android:id="@+id/et_appointment"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/mac_btn_margin_start"
+                android:layout_weight="2"
+                android:background="@drawable/edittext_background"
+                android:gravity="center_vertical"
+                android:hint="请输入需要预约的分钟数"
+                android:textColor="@color/idkey_editText_textcolor"
+                android:textSize="@dimen/text_size_edit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/idley_paddingbottom"
+            android:paddingTop="@dimen/idley_paddingtop"
+            android:weightSum="6" >
+
+            <Button
+                android:id="@+id/btn_appointment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/corner_button_off"
+                android:text="确认预约"
+                android:textColor="@color/idkey_button_textcolor"
+                android:textSize="@dimen/idkey_button_text_size" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
